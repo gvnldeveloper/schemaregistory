@@ -1,0 +1,11 @@
+{
+     "type": "record",
+     "namespace": "com.example.demo",
+     "name": "User",
+     "version": "1",
+     "fields": [
+       { "name": "first", "type": "string", "doc": "First Name of Customer", "default" : "UNKNOWN FIRST" },
+       { "name": "last", "type": "string", "doc": "Last Name of Customer" ,"default" : "UNKNOWN SECOND"},
+       { "name": "age", "type": "int", "doc": "Age at the time of registration" }
+	]
+}
